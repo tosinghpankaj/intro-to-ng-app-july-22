@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatCardModule } from '@angular/material/card';
 import { HomeModule } from './modules/home/home.module';
+import { TourOfHerosModule } from './modules/tour-of-heroes/tour-of-heroes.module';
 
 
 @NgModule({
