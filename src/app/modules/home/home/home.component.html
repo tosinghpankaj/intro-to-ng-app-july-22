@@ -1,0 +1,5 @@
+<div class="container">
+  <app-home-card *ngFor="let card of homeCardsData"
+                 title="{{ card.title }}"
+                 icon="{{ card?.icon ? card.icon : 'science' }}"></app-home-card>
+</div>
